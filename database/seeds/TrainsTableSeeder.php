@@ -72,7 +72,7 @@ class TrainsTableSeeder extends Seeder
             $data ->Orario_di_Partenza = $train['Orario_di_Partenza'];
             $data ->Orario_di_Arrivo = $train['Orario_di_Arrivo'];
             $data ->Codice_treno = $train['Codice_treno'];
-            $data ->Numero_carrozze = $train['Numero_carrozze'];
+            $data ->Numero_carrozze = $train['Numero_Carrozze'];
             $data ->In_orario = $train['In_orario'];
             $data->Cancellato = $train['Cancellato'];
 
