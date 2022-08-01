@@ -32,7 +32,7 @@
                             <span class="text-secondary">Codice Treno:</span>  <span class="text-success">{{$train['Codice_Treno']}}</span>
                         </li>
                         <li>
-                            <span class="text-secondary">Numero Carrozze:</span>  <span class="text-success"{{$train['Numero_Carrozze']}}></span>
+                            <span class="text-secondary">Numero Carrozze:</span>  <span class="text-success" {{ $train['Numero_Carrozze'] }} ></span>
                         </li>
                         <li>
                             <span class="text-secondary">In Orario:</span>  <span class="text-success">{{$train['In_orario']}}</span>
